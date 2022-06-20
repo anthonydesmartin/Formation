@@ -52,7 +52,6 @@ nav ul li {
 }
 
 #theme article {
-    height: 50%;
     background-color: gray;
     display: flex;
     flex-direction: row;
@@ -68,13 +67,4 @@ nav ul li {
     border: 2px yellow;
     width: 75%;
     align-self: center;
-}
-
-.move {
-    width: 30px;
-}
-
-.move_before {
-    width: 30px;
-    margin-top: -10px;
 }
