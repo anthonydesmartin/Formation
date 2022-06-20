@@ -1,0 +1,22 @@
+Navigation organique, séquenciel, matriciel (savent ce qu'il cherche), anarchique
+Hypertext Markup Language
+
+Markup : Ensemble de "tags" assignés à des éléments de texte pour indiquer leur structure ou leur relation logique par rapport aux autres éléments du texte
+Tag : un caractère ou un ensemble de caractères accolé à un item dans le but de l'identifier
+Hypertext : Un système hypertexte est un système contenant des nœuds liés entre eux par des hyperliens permettant de passer automatiquement d'un nœud à un autre. Un document hypertexte est donc un document qui contient des hyperliens et des nœuds. Un nœud est une "unité minimale d'information"
+
+Si tu met une section, les éléments ont tous un rapport entre eux, si tu met une div, ils n'ont pas forcément un rapport entre eux
+
+aside (à côté car en rapport avec l'élément)
+
+pattern:
+. de 0 à n caractères
++ 1 et + caractères
+{0,N} pour définir le nombre min et max de caractères
+------------
+[a-zA-Z]
+[0-9]
+------------
+
+CSS
+L'axe principal, c'est la ligne et le secondaire, c'est la hauteur.

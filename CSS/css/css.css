@@ -1,0 +1,22 @@
+* {
+    border: 2px solid black;
+}
+
+#parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.child {
+    flex-basis: 32%;
+    height: 200px;
+}
+
+#div_id_3 {
+    align-self: flex-end;
+}

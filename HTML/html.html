@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+	<form action="" method="get">
+		<h1>Formulaire</h1>
+		<section>
+			<h2>Informations personnelles</h2>
+			<fieldset style="width: 150px; height: 75px;">
+				<legend>Sexe*</legend>
+				<ul style="list-style: none;">
+					<li>
+						<label for="mr"><input type="radio" name="sexe" id="mr" value="monsieur" required>Monsieur</label>
+					</li>
+					<li>
+						<label for="mme"><input type="radio" name="sexe" id="mme" value="madame" required>Madame</label>
+					</li>
+				</ul>
+			</fieldset>
+			<p><label for="name">Prénom: <input type="text" id="name" placeholder="Prénom" pattern="[a-zA-Z]+"
+						required>*</label></p>
+			<p><label for="name">Nom: <input type="text" id="name" placeholder="Nom" pattern="[a-zA-Z]{3,5}"
+						required>*</label></p>
+			<p><label for="age">Date de naissance <input type="date" name="age" id="age" max="2004-06-16" min="1922-06-16"
+						required>*</label></p>
+			<p><label for="cv">CV: <input type="file" name="cv" id="cv">*</label></p>
+		</section>
+		<button type="submit">Envoyer</button>
+	</form>
+</body>
+
+</html>
