@@ -1,0 +1,13 @@
+@import "variables";
+@import "global";
+@import "mixins";
+
+body {
+  /* Utilisation de la variable */
+  color: $primary-color;
+}
+
+/* Appel de la mixin*/
+.btn {
+  @include button(black, white, blue)
+}

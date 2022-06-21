@@ -1,11 +1,5 @@
 @charset "UTF-8";
-/* Définition d'une variable */
-body {
-  /* Utilisation de la variable */
-  color: rgb(221, 32, 32);
-}
-
-/* navigation principale en utilisant l'imbrication */
+/* Définition d'une variable */ /* Navigation principale en utilisant l'imbrication */
 #main-nav {
   background-color: grey;
 }
@@ -29,6 +23,11 @@ body {
 }
 
 /* Mixin */
+body {
+  /* Utilisation de la variable */
+  color: rgb(221, 32, 32);
+}
+
 /* Appel de la mixin*/
 .btn {
   padding: 8px;
@@ -43,4 +42,4 @@ body {
   background-color: blue;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index.css.map */
