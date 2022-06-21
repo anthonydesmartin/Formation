@@ -1,2 +1,8 @@
 /* Définition d'une variable */
 $primary-color: rgb(221, 32, 32);
+$secondary-color: rgb(72, 248, 2);
+
+$colors: (
+        primary: $primary-color,
+        secondary: $secondary-color,
+);

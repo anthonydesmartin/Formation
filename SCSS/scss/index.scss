@@ -4,7 +4,7 @@
 
 body {
   /* Utilisation de la variable */
-  color: $primary-color;
+  color: map-get($colors, secondary);
 }
 
 /* Appel de la mixin*/
