@@ -32,7 +32,7 @@ body {
 }
 
 /* Mixin */
-@mixin button($bgcolor, $color) {
+@mixin button($bgcolor, $color, $hover_color) {
   padding: 8px;
   border-radius: 8px;
   background-color: $bgcolor;
@@ -41,11 +41,11 @@ body {
   margin: 5px;
   &:hover {
     cursor: pointer;
-    background-color: blue;
+    background-color: $hover_color;
   }
 }
 
 /* Appel de la mixin*/
 .btn {
-  @include button(black, white)
+  @include button(black, white, blue)
 }
