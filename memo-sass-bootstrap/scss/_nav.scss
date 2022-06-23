@@ -1,0 +1,43 @@
+#main-nav {
+  margin: 20px 0;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    li {
+      display: flex;
+      align-items: center;
+      background-color: $primary;
+      padding: 0 10px;
+      border-radius: 6px;
+
+      &:hover {
+        background-color: $primary-hover;
+      }
+
+      #add_label {
+        padding: 0;
+      }
+
+      a {
+        color: $secondary;
+        text-decoration: none;
+        padding: 5px 0;
+        display: block;
+      }
+
+      svg {
+        margin-left: 5px;
+        width: 20px;
+        color: white;
+
+        &:hover {
+          cursor: pointer;
+          color: #dedede;
+        }
+      }
+    }
+  }
+}

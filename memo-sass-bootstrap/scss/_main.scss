@@ -1,0 +1,75 @@
+main {
+  margin: 0 30px;
+
+  #columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3em -15px 0 -15px;
+
+    > section {
+      flex-basis: 23%;
+
+      > div {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        a {
+          background-color: $primary;
+          color: $secondary;
+          padding: 5px 10px;
+          margin-right: 20px;
+          border-radius: 6px;
+          text-decoration: none;
+
+          &:hover {
+            background-color: $primary-hover;
+          }
+        }
+      }
+
+      article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: $secondary;
+        color: $primary;
+        border-radius: 6px;
+        gap: 10px;
+        padding: 15px;
+        margin: 20px 0;
+
+        section {
+          display: flex;
+          flex-direction: column;
+
+          > div {
+            display: flex;
+            justify-content: space-around;
+
+            button {
+              display: flex;
+              justify-content: center;
+              max-width: 50%;
+              border-radius: 6px;
+              background-color: $primary;
+              color: $secondary;
+
+              &:hover {
+                background-color: $primary-hover;
+              }
+            }
+
+            a {
+              display: flex;
+              align-self: center;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

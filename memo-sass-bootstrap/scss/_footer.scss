@@ -1,0 +1,16 @@
+#footer-nav {
+  margin-top: 20px;
+  background-color: $secondary;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 3em;
+    margin-bottom: -16px;
+
+    li a {
+      margin: 0 10px;
+    }
+  }
+}

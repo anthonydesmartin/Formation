@@ -1,0 +1,7 @@
+/* Mes tableaux */
+$custom-spacers: (
+        "6": 10px
+);
+
+// Merge the maps
+$spacers: map-merge($spacers, $custom-spacers);
