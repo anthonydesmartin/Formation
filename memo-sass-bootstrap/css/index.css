@@ -10449,10 +10449,21 @@ header h1, header .h1 {
 #main-nav {
   margin: 20px 0;
 }
+@media (max-width: 768px) {
+  #main-nav ul {
+    flex-wrap: wrap !important;
+  }
+}
 #main-nav ul {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+#main-nav ul #used {
+  background-color: #000000;
+}
+#main-nav ul #used a {
+  color: #f3ca20;
 }
 #main-nav ul li {
   display: flex;
@@ -10472,6 +10483,7 @@ header h1, header .h1 {
   text-decoration: none;
   padding: 5px 0;
   display: block;
+  font-style: italic;
 }
 #main-nav ul li svg {
   margin-left: 5px;
@@ -10485,6 +10497,28 @@ header h1, header .h1 {
 
 main {
   margin: 0 30px;
+}
+@media (max-width: 992px) {
+  main #columns {
+    flex-direction: column !important;
+  }
+  main h4, main .h4 {
+    font-size: large !important;
+  }
+  main button {
+    font-size: medium !important;
+  }
+}
+@media (max-width: 768px) {
+  main #columns {
+    flex-direction: column !important;
+  }
+  main h4, main .h4 {
+    font-size: medium !important;
+  }
+  main button {
+    font-size: small !important;
+  }
 }
 main #columns {
   display: flex;

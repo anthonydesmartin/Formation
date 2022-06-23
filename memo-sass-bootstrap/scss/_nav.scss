@@ -1,10 +1,27 @@
 #main-nav {
+
+  @media (max-width: 768px) {
+
+    ul {
+      flex-wrap: wrap !important;
+    }
+
+  }
+
   margin: 20px 0;
 
   ul {
     display: flex;
     justify-content: center;
     gap: 10px;
+
+    #used {
+      background-color: $secondary;
+
+      a {
+        color: $primary;
+      }
+    }
 
     li {
       display: flex;
@@ -26,6 +43,7 @@
         text-decoration: none;
         padding: 5px 0;
         display: block;
+        font-style: italic;
       }
 
       svg {
